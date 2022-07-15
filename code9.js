@@ -105,7 +105,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21508436);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21539116);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -159,7 +159,7 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain"), gdjs.Word9Code.GDTryAgainObj
 }
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\GoodJob.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\Instructions.wav");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_9_Video.mp3");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_9_Audio.ogg");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\TryAgain.wav");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Marker layer");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "OutOfBound layer");
@@ -253,7 +253,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word9Code.GDNewVideoObj
 }{for(var i = 0, len = gdjs.Word9Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word9Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_9_Video.mp3", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_9_Audio.ogg", 1, false, 100, 1);
 }}
 
 }
@@ -276,7 +276,7 @@ for(var i = 0, k = 0, l = gdjs.Word9Code.GDNewVideoObjects2.length;i<l;++i) {
 gdjs.Word9Code.GDNewVideoObjects2.length = k;}if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21461796);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21491796);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -308,7 +308,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21463020);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21493020);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -328,7 +328,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21463980);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21494236);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -380,7 +380,7 @@ gdjs.Word9Code.condition1IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word9Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition2IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21468964);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21499700);
 }
 }}
 }
@@ -423,7 +423,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21465068);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21495436);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -459,7 +459,7 @@ gdjs.Word9Code.eventsList4 = function(runtimeScene) {
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21511252);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21541644);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.Word9Code.GDPencilCursorObjects3.length = 0;
@@ -494,7 +494,7 @@ gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word9Code.GDPencilC
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21513044);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21543692);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word9Code.GDPencilCursorObjects3);
@@ -526,7 +526,7 @@ gdjs.Word9Code.eventsList7 = function(runtimeScene) {
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21514572);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21545132);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word9Code.GDButtonBackObjects2, gdjs.Word9Code.GDButtonBackObjects3);
@@ -552,7 +552,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21515780);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21546340);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -576,7 +576,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21516356);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21546916);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -602,7 +602,7 @@ gdjs.Word9Code.eventsList8 = function(runtimeScene) {
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21519484);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21550044);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word9Code.GDButtonNextObjects2, gdjs.Word9Code.GDButtonNextObjects3);
@@ -628,7 +628,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21519340);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21549900);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -652,7 +652,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21521620);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21552180);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -678,7 +678,7 @@ gdjs.Word9Code.eventsList9 = function(runtimeScene) {
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21524508);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21555068);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word9Code.GDButtonHomeObjects2, gdjs.Word9Code.GDButtonHomeObjects3);
@@ -701,7 +701,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21525588);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21556148);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -722,7 +722,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21525660);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21556220);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -761,7 +761,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolea
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21529412);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21559972);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word9Code.GDButtonPencilObjects2, gdjs.Word9Code.GDButtonPencilObjects3);
@@ -787,7 +787,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21529188);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21559748);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -811,7 +811,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21531196);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21561756);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -839,7 +839,7 @@ gdjs.Word9Code.eventsList12 = function(runtimeScene) {
 gdjs.Word9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition0IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21534892);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21565452);
 }
 }if (gdjs.Word9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word9Code.GDButtonEraserObjects2, gdjs.Word9Code.GDButtonEraserObjects3);
@@ -1102,7 +1102,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21517844);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21548404);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1145,7 +1145,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21522796);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21553356);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1188,7 +1188,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21527692);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21558252);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1228,7 +1228,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21533380);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21563940);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1271,7 +1271,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21537404);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21567964);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1331,7 +1331,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21545004);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21575564);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1379,7 +1379,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21547732);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21578292);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1491,7 +1491,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21549188);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21579748);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1518,7 +1518,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21549756);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21580316);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {
@@ -1541,7 +1541,7 @@ gdjs.Word9Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word9Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word9Code.conditionTrue_1 = gdjs.Word9Code.condition1IsTrue_0;
-gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21551180);
+gdjs.Word9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21581740);
 }
 }}
 if (gdjs.Word9Code.condition1IsTrue_0.val) {

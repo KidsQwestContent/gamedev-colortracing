@@ -105,7 +105,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBeg
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21759556);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21790964);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -160,7 +160,7 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain"), gdjs.Word11Code.GDTryAgainOb
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\GoodJob.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\Instructions.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\TryAgain.wav");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_11_Audio.mp3");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_11_Audio.ogg");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Marker layer");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "OutOfBound layer");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "UI layer");
@@ -253,7 +253,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word11Code.GDNewVideoOb
 }{for(var i = 0, len = gdjs.Word11Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word11Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_11_Audio.mp3", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_11_Audio.ogg", 1, false, 100, 1);
 }}
 
 }
@@ -276,7 +276,7 @@ for(var i = 0, k = 0, l = gdjs.Word11Code.GDNewVideoObjects2.length;i<l;++i) {
 gdjs.Word11Code.GDNewVideoObjects2.length = k;}if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21713884);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21745292);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -308,7 +308,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21715108);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21746516);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -328,7 +328,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21715940);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21747348);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -380,7 +380,7 @@ gdjs.Word11Code.condition1IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelSto
 }if ( gdjs.Word11Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition2IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21720924);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21752332);
 }
 }}
 }
@@ -423,7 +423,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelSto
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21704500);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21735908);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -459,7 +459,7 @@ gdjs.Word11Code.eventsList4 = function(runtimeScene) {
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21762196);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21793604);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.Word11Code.GDPencilCursorObjects3.length = 0;
@@ -494,7 +494,7 @@ gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word11Code.GDPencil
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21764244);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21795652);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word11Code.GDPencilCursorObjects3);
@@ -526,7 +526,7 @@ gdjs.Word11Code.eventsList7 = function(runtimeScene) {
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21765684);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21797092);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word11Code.GDButtonBackObjects2, gdjs.Word11Code.GDButtonBackObjects3);
@@ -552,7 +552,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21766892);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21798300);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -576,7 +576,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21767468);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21798876);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -602,7 +602,7 @@ gdjs.Word11Code.eventsList8 = function(runtimeScene) {
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21770596);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21802004);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word11Code.GDButtonNextObjects2, gdjs.Word11Code.GDButtonNextObjects3);
@@ -628,7 +628,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21770452);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21801860);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -652,7 +652,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21772732);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21804140);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -678,7 +678,7 @@ gdjs.Word11Code.eventsList9 = function(runtimeScene) {
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21775620);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21807028);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word11Code.GDButtonHomeObjects2, gdjs.Word11Code.GDButtonHomeObjects3);
@@ -701,7 +701,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21776700);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21808108);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -722,7 +722,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21776772);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21808180);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -761,7 +761,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21780524);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21811932);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word11Code.GDButtonPencilObjects2, gdjs.Word11Code.GDButtonPencilObjects3);
@@ -787,7 +787,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21780300);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21811708);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -811,7 +811,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21782308);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21813716);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -839,7 +839,7 @@ gdjs.Word11Code.eventsList12 = function(runtimeScene) {
 gdjs.Word11Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition0IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21786004);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21817412);
 }
 }if (gdjs.Word11Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word11Code.GDButtonEraserObjects2, gdjs.Word11Code.GDButtonEraserObjects3);
@@ -1102,7 +1102,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21768956);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21800364);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1145,7 +1145,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21773908);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21805316);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1188,7 +1188,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21778804);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21810212);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1228,7 +1228,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21784492);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21815900);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1271,7 +1271,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21788516);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21819924);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1331,7 +1331,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21796116);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21827524);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1379,7 +1379,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21798844);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21830252);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1491,7 +1491,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21800300);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21831708);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1518,7 +1518,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21800868);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21832276);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {
@@ -1541,7 +1541,7 @@ gdjs.Word11Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElap
 }if ( gdjs.Word11Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word11Code.conditionTrue_1 = gdjs.Word11Code.condition1IsTrue_0;
-gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21802292);
+gdjs.Word11Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21833700);
 }
 }}
 if (gdjs.Word11Code.condition1IsTrue_0.val) {

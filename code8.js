@@ -105,7 +105,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21380668);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21410908);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -160,7 +160,7 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain"), gdjs.Word8Code.GDTryAgainObj
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\GoodJob.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\Instructions.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\TryAgain.wav");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_8_Audio.mp3");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_8_Audio.ogg");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Marker layer");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "OutOfBound layer");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "UI layer");
@@ -253,7 +253,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word8Code.GDNewVideoObj
 }{for(var i = 0, len = gdjs.Word8Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word8Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_8_Audio.mp3", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_8_Audio.ogg", 1, false, 100, 1);
 }}
 
 }
@@ -276,7 +276,7 @@ for(var i = 0, k = 0, l = gdjs.Word8Code.GDNewVideoObjects2.length;i<l;++i) {
 gdjs.Word8Code.GDNewVideoObjects2.length = k;}if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21333484);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21364084);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -308,7 +308,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21334708);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21365308);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -328,7 +328,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21335756);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21366308);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -380,7 +380,7 @@ gdjs.Word8Code.condition1IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word8Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition2IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21340740);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21371772);
 }
 }}
 }
@@ -423,7 +423,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21336668);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21367052);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -459,7 +459,7 @@ gdjs.Word8Code.eventsList4 = function(runtimeScene) {
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21383372);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21413596);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.Word8Code.GDPencilCursorObjects3.length = 0;
@@ -494,7 +494,7 @@ gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word8Code.GDPencilC
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21385164);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21415388);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word8Code.GDPencilCursorObjects3);
@@ -526,7 +526,7 @@ gdjs.Word8Code.eventsList7 = function(runtimeScene) {
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21386692);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21416916);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word8Code.GDButtonBackObjects2, gdjs.Word8Code.GDButtonBackObjects3);
@@ -552,7 +552,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21387900);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21418124);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -576,7 +576,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21388476);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21418700);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -602,7 +602,7 @@ gdjs.Word8Code.eventsList8 = function(runtimeScene) {
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21391604);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21421828);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word8Code.GDButtonNextObjects2, gdjs.Word8Code.GDButtonNextObjects3);
@@ -628,7 +628,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21391460);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21421684);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -652,7 +652,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21393740);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21423964);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -678,7 +678,7 @@ gdjs.Word8Code.eventsList9 = function(runtimeScene) {
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21396628);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21426852);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word8Code.GDButtonHomeObjects2, gdjs.Word8Code.GDButtonHomeObjects3);
@@ -701,7 +701,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21397708);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21427932);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -722,7 +722,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21397780);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21428004);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -761,7 +761,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolea
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21401532);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21431756);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word8Code.GDButtonPencilObjects2, gdjs.Word8Code.GDButtonPencilObjects3);
@@ -787,7 +787,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21401308);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21431532);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -811,7 +811,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21403316);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21433540);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -839,7 +839,7 @@ gdjs.Word8Code.eventsList12 = function(runtimeScene) {
 gdjs.Word8Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition0IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21407012);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21437236);
 }
 }if (gdjs.Word8Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word8Code.GDButtonEraserObjects2, gdjs.Word8Code.GDButtonEraserObjects3);
@@ -1102,7 +1102,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21389964);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21420188);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1145,7 +1145,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21394916);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21425140);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1188,7 +1188,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21399812);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21430036);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1228,7 +1228,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21405500);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21435724);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1271,7 +1271,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21409524);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21439748);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1331,7 +1331,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21417124);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21447348);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1379,7 +1379,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21419852);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21450076);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1491,7 +1491,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21421308);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21451532);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1518,7 +1518,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21421876);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21452100);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {
@@ -1541,7 +1541,7 @@ gdjs.Word8Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word8Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word8Code.conditionTrue_1 = gdjs.Word8Code.condition1IsTrue_0;
-gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21423300);
+gdjs.Word8Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21453524);
 }
 }}
 if (gdjs.Word8Code.condition1IsTrue_0.val) {

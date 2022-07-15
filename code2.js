@@ -105,7 +105,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20646860);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20674644);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -160,7 +160,7 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain"), gdjs.Word2Code.GDTryAgainObj
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\GoodJob.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\Instructions.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\TryAgain.wav");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_2_Audio.mp3");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_2_Audio.ogg");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Marker layer");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "OutOfBound layer");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "UI layer");
@@ -253,7 +253,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word2Code.GDNewVideoObj
 }{for(var i = 0, len = gdjs.Word2Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word2Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_2_Audio.mp3", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_2_Audio.ogg", 1, false, 100, 1);
 }}
 
 }
@@ -276,7 +276,7 @@ for(var i = 0, k = 0, l = gdjs.Word2Code.GDNewVideoObjects2.length;i<l;++i) {
 gdjs.Word2Code.GDNewVideoObjects2.length = k;}if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20600996);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20627396);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -308,7 +308,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20602220);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20628620);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -328,7 +328,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20603052);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20629668);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -380,7 +380,7 @@ gdjs.Word2Code.condition1IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word2Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition2IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20608036);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20634652);
 }
 }}
 }
@@ -423,7 +423,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20591828);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20630756);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -459,7 +459,7 @@ gdjs.Word2Code.eventsList4 = function(runtimeScene) {
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20649652);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20677236);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.Word2Code.GDPencilCursorObjects3.length = 0;
@@ -494,7 +494,7 @@ gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word2Code.GDPencilC
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20651468);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20679284);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word2Code.GDPencilCursorObjects3);
@@ -526,7 +526,7 @@ gdjs.Word2Code.eventsList7 = function(runtimeScene) {
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20652996);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20680724);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word2Code.GDButtonBackObjects2, gdjs.Word2Code.GDButtonBackObjects3);
@@ -552,7 +552,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20654204);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20681932);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -576,7 +576,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20654780);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20682508);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -602,7 +602,7 @@ gdjs.Word2Code.eventsList8 = function(runtimeScene) {
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20657908);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20685636);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word2Code.GDButtonNextObjects2, gdjs.Word2Code.GDButtonNextObjects3);
@@ -628,7 +628,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20657764);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20685492);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -652,7 +652,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20660044);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20687772);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -678,7 +678,7 @@ gdjs.Word2Code.eventsList9 = function(runtimeScene) {
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20662932);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20690660);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word2Code.GDButtonHomeObjects2, gdjs.Word2Code.GDButtonHomeObjects3);
@@ -701,7 +701,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20664012);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20691740);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -722,7 +722,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20664084);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20691812);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -761,7 +761,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolea
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20667836);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20695564);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word2Code.GDButtonPencilObjects2, gdjs.Word2Code.GDButtonPencilObjects3);
@@ -787,7 +787,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20667612);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20695340);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -811,7 +811,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20669620);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20697348);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -839,7 +839,7 @@ gdjs.Word2Code.eventsList12 = function(runtimeScene) {
 gdjs.Word2Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition0IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20673316);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20701044);
 }
 }if (gdjs.Word2Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word2Code.GDButtonEraserObjects2, gdjs.Word2Code.GDButtonEraserObjects3);
@@ -1102,7 +1102,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20656268);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20683996);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1145,7 +1145,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20661220);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20688948);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1188,7 +1188,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20666116);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20693844);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1228,7 +1228,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20671804);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20699532);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1271,7 +1271,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20675828);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20703556);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1331,7 +1331,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20683428);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20711156);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1379,7 +1379,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20686156);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20713884);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1491,7 +1491,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20687612);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20715340);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1518,7 +1518,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20688180);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20715908);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {
@@ -1541,7 +1541,7 @@ gdjs.Word2Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word2Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word2Code.conditionTrue_1 = gdjs.Word2Code.condition1IsTrue_0;
-gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20689604);
+gdjs.Word2Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20717332);
 }
 }}
 if (gdjs.Word2Code.condition1IsTrue_0.val) {

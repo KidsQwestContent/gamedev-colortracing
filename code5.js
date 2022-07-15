@@ -105,7 +105,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21007172);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21039588);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -160,7 +160,7 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain"), gdjs.Word5Code.GDTryAgainObj
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\GoodJob.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\Instructions.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\TryAgain.wav");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_5_Audio.mp3");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_5_Audio.ogg");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Marker layer");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "OutOfBound layer");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "UI layer");
@@ -254,7 +254,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word5Code.GDNewVideoObj
 }{for(var i = 0, len = gdjs.Word5Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word5Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_5_Audio.mp3", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_5_Audio.ogg", 1, false, 100, 1);
 }}
 
 }
@@ -277,7 +277,7 @@ for(var i = 0, k = 0, l = gdjs.Word5Code.GDNewVideoObjects2.length;i<l;++i) {
 gdjs.Word5Code.GDNewVideoObjects2.length = k;}if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20963852);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20991716);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -309,7 +309,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20965076);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20992940);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -329,7 +329,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20966204);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20993988);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -384,7 +384,7 @@ gdjs.Word5Code.condition1IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word5Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition2IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20971964);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20999268);
 }
 }}
 }
@@ -427,7 +427,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelStop
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21012268);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(20994916);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -463,7 +463,7 @@ gdjs.Word5Code.eventsList4 = function(runtimeScene) {
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21013628);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21042572);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.Word5Code.GDPencilCursorObjects3.length = 0;
@@ -498,7 +498,7 @@ gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word5Code.GDPencilC
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21015420);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21044364);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("PencilCursor"), gdjs.Word5Code.GDPencilCursorObjects3);
@@ -530,7 +530,7 @@ gdjs.Word5Code.eventsList7 = function(runtimeScene) {
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21016948);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21045892);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word5Code.GDButtonBackObjects2, gdjs.Word5Code.GDButtonBackObjects3);
@@ -556,7 +556,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21018156);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21047100);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -580,7 +580,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21018732);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21047676);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -606,7 +606,7 @@ gdjs.Word5Code.eventsList8 = function(runtimeScene) {
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21021860);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21050804);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word5Code.GDButtonNextObjects2, gdjs.Word5Code.GDButtonNextObjects3);
@@ -632,7 +632,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21021716);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21050660);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -656,7 +656,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21023996);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21052940);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -682,7 +682,7 @@ gdjs.Word5Code.eventsList9 = function(runtimeScene) {
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21026884);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21055828);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word5Code.GDButtonHomeObjects2, gdjs.Word5Code.GDButtonHomeObjects3);
@@ -705,7 +705,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21027964);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21056908);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -726,7 +726,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21028036);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21056980);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -765,7 +765,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolea
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21031788);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21060732);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word5Code.GDButtonPencilObjects2, gdjs.Word5Code.GDButtonPencilObjects3);
@@ -791,7 +791,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21031564);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21060508);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -815,7 +815,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelease
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21033572);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21062516);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -844,7 +844,7 @@ gdjs.Word5Code.eventsList12 = function(runtimeScene) {
 gdjs.Word5Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition0IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21037268);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21066212);
 }
 }if (gdjs.Word5Code.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.Word5Code.GDButtonEraserObjects2, gdjs.Word5Code.GDButtonEraserObjects3);
@@ -1108,7 +1108,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21020220);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21049164);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1151,7 +1151,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21025172);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21054116);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1194,7 +1194,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21030068);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21059012);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1234,7 +1234,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21035756);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21064700);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1277,7 +1277,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21040020);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21068964);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1337,7 +1337,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21047556);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21076500);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1385,7 +1385,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21050284);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21079228);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1497,7 +1497,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21051740);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21080684);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1520,7 +1520,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21053060);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21082004);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
@@ -1543,7 +1543,7 @@ gdjs.Word5Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElaps
 }if ( gdjs.Word5Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Word5Code.conditionTrue_1 = gdjs.Word5Code.condition1IsTrue_0;
-gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21053420);
+gdjs.Word5Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21082364);
 }
 }}
 if (gdjs.Word5Code.condition1IsTrue_0.val) {
