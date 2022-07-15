@@ -160,7 +160,7 @@ gdjs.copyArray(runtimeScene.getObjects("TryAgain"), gdjs.Word10Code.GDTryAgainOb
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\GoodJob.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\Instructions.wav");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "Audio\\TryAgain.wav");
-}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_10_Audio.ogg");
+}{gdjs.evtTools.sound.preloadSound(runtimeScene, "Image\\1.Learning\\L1_10_Audio.aac");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "Marker layer");
 }{gdjs.evtTools.camera.hideLayer(runtimeScene, "OutOfBound layer");
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "UI layer");
@@ -253,7 +253,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word10Code.GDNewVideoOb
 }{for(var i = 0, len = gdjs.Word10Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word10Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_10_Audio.ogg", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_10_Audio.aac", 1, false, 100, 1);
 }}
 
 }
