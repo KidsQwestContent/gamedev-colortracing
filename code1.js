@@ -253,7 +253,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.Word1Code.GDNewVideoObj
 }{for(var i = 0, len = gdjs.Word1Code.GDStartObjects2.length ;i < len;++i) {
     gdjs.Word1Code.GDStartObjects2[i].setY(2000);
 }
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Image\\1.Learning\\L1_1_Audio.aac", 1, false, 100, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "Image\\1.Learning\\L1_1_Audio.aac", false, 100, 1);
 }}
 
 }
